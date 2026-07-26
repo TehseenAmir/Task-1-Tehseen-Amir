@@ -1,18 +1,17 @@
-# E-Commerce Sales Data Cleaning Project
+#  E-Commerce Sales Data Cleaning Using Python & Excel
 
-## 📌 Project Overview
+## Project Overview
 
-This project focuses on cleaning and preparing an e-commerce sales dataset for analysis. The dataset contains 1,200 customer orders with information about products, sales, payment methods, order status, coupons, referral sources, and total order value.
+This project focuses on cleaning and preparing an e-commerce sales dataset using **Python** and **Google Sheet**. The dataset contains customer orders, product details, payment methods, order status, coupon codes, referral sources, and sales information.
 
-The objective was to improve data quality by identifying and correcting inconsistencies, handling missing values, removing duplicates, and preparing the dataset for further analysis and visualization.
+The objective of this project is to transform raw data into a clean, accurate, and analysis-ready dataset by handling missing values, removing duplicates, formatting data correctly, and improving overall data quality.
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 
-**Rows:** 1,200
+The dataset contains the following fields:
 
-**Columns:**
 - Order ID
 - Date
 - Customer ID
@@ -30,19 +29,66 @@ The objective was to improve data quality by identifying and correcting inconsis
 
 ---
 
-## 🧹 Data Cleaning Tasks Performed
+## 🛠️ Tools & Technologies
 
-- Checked for missing (null/blank) values
+- Python
+- Pandas
+- Jupyter Notebook
+- Google sheet
+
+---
+
+## Data Cleaning Tasks Performed
+
+### Using Python (Pandas)
+
+- Imported the dataset
+- Inspected the dataset using `head()`, `info()`, and `describe()`
+- Checked for missing values
+- Replaced blank coupon codes with "NO Coupon"
 - Removed duplicate records
-- Verified data consistency
+- Converted the Date column to the correct datetime format
+- Exported the cleaned dataset
+
+### Using Microsoft Excel
+
+- Reviewed the dataset for data quality
+- Verified missing values and duplicates
+- Applied sorting and filtering
 - Standardized text formatting
-- Converted date columns into proper date format
-- Checked numeric columns for correct data types
-- Validated Total Price values
+- Checked data consistency
+- Validated numerical values
 - Prepared the dataset for analysis
 
 ---
 
+## Python Library
+
+```python
+import pandas as pd
+
+---
+
+## Project Objective
+
+To clean and organize raw e-commerce sales data using Python and Excel, ensuring the dataset is accurate, consistent, and ready for reporting, visualization, and business analysis.
+
+---
+
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Preprocessing
+- Missing Value Handling
+- Duplicate Removal
+- Data Validation
+- Data Formatting
+- Data Type Conversion
+- Python (Pandas)
+- Google Sheet
+
+---
 ## 🛠️ Tools Used
 
 - Google Sheet
